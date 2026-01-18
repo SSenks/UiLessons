@@ -1,4 +1,4 @@
 package me.kirssenk.commands;
 
-public class ForthLessonCommand {
+public class FourthLessonCommand {
 }

@@ -8,7 +8,7 @@ Follow these steps to use this template:
 
 ### 1. Update Package Name
 
-Change the package name from `me.alii` to your own package name throughout the project files.
+Change the package name from `me.kirssenk` to your own package name throughout the project files.
 
 ### 2. Update Manifest
 

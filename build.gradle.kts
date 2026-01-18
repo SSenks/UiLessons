@@ -17,7 +17,7 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
-    implementation(files("libs/HytaleServer.jar"))
+    implementation(files("libs/hytale-server.jar"))
 }
 
 tasks.test {

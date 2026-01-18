@@ -1,0 +1,16 @@
+Group {
+
+    Anchor: (Width: 800, Height:600);
+    Background: #1e2f1e(0.85);
+    LayoutMode: Top;
+    Padding: (Full: 80);
+
+    Label #MyLabel {
+        Text: "My text";
+        Anchor: (Height: 80);
+        Background: #1d9f1e(0.85);
+        Style: (FontSize: 24, TextColor: #ffffff, Alignment: Center);
+    }
+
+}
+

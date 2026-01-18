@@ -1,6 +1,6 @@
 {
-  "Group": "group",
-  "Name": "ModName",
+  "Group": "me.kirssenk",
+  "Name": "UILessons",
   "Version": "1.0.0",
   "Description": "Your description",
   "Authors": [
@@ -8,7 +8,7 @@
       "Name": "your name"
     },
     {
-      "Name": "Alii"
+      "Name": "kirssenk"
     }
   ],
   "Website": "",
@@ -16,6 +16,6 @@
   "Dependencies": {},
   "OptionalDependencies": {},
   "DisabledByDefault": false,
-  "Main": "package.mainclass",
+  "Main": "me.kirssenk.UILessonPlugin",
   "IncludesAssetPack": true
 }
