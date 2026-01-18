@@ -1,0 +1,47 @@
+$C = "Common.ui";
+
+@TextButtonStyle = TextButtonStyle(
+    Default: (Background: #1d9f1e(0.85), LabelStyle: (FontSize: 18, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center)),
+);
+
+
+Group {
+
+    Anchor: (Width: 800, Height:750);
+    Background: #1e2f1e(0.85);
+    LayoutMode: Top;
+    Padding: (Full: 60);
+
+    Label #MyLabel {
+        Text: "Registry Anket";
+        Anchor: (Height: 120);
+        Background: #1d9f1e(0.85);
+        Style: (FontSize: 24, TextColor: #ffffff, Alignment: Center);
+    }
+
+    Group { Anchor: (Height: 100); }
+
+    $C.@TextField #InputName {
+        Anchor: (Height: 80);
+        Background: #252625(0.85);
+        PlaceholderText: "Enter your name to continue...";
+    }
+
+    Group { Anchor: (Height: 40); }
+
+    $C.@TextField #InputAge {
+        Anchor: (Height: 80);
+        Background: #252625(0.85);
+        PlaceholderText: "Enter your age to continue...";
+    }
+
+    Group { Anchor: (Height: 40); }
+
+    TextButton #SubmitButton {
+        Anchor: (Height: 80);
+        Text: "Click me!";
+        Style: @TextButtonStyle;
+    }
+
+}
+
